@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input { 
+  text-align: right; 
+}
+
+.card-body input {
+  width: 100%;
+}
+
+.container {
+  max-width: 700px !important;
+  background-color: grey;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.update-field {
+  font-size: 14px;
+  margin-right: 32px;
+  color: rgb(243, 187, 187)
+}
+
+.btc-label {
+  color: white;
+}
+
+.card-header {
+  background-color: rgb(24, 41, 59) !important;
+}
+
+.currency {
+  color: white;
+}
